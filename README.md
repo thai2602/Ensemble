@@ -1,4 +1,4 @@
-# Blog-shop
+# Ensemble
 
 Blog-shop is a dedicated platform designed to empower small shop owners to showcase their passion in a professional and organized way. Unlike scattered social media posts, Blog-shop provides a centralized space to build trust and credibility with customers.
 
