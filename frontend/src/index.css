@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose-override :where(p, li, h1, h2, h3, h4, h5, h6, span, div) {
+  color: rgb(24 24 27 / 1) !important; 
+}
+.dark .prose-override :where(p, li, h1, h2, h3, h4, h5, h6, span, div) {
+  color: rgb(250 250 250 / 1) !important;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out;
+}

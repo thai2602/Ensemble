@@ -1,0 +1,207 @@
+[
+    {
+        "id": "luxury_classic",
+        "keywords": "luxury, elegant, premium, expensive, gold, black, watch, jewelry, high-end",
+        "text": "Luxury Style: Use a deep rich background (Black #000000 or Dark Navy #0B1120). Accents should be Gold (#D4AF37) or Metallic Silver (#C0C0C0). Fonts should be Serif (Playfair Display) for headings. Minimalist layout with lots of whitespace."
+    },
+    {
+        "id": "luxury_coffee",
+        "keywords": "luxury, coffee, shop, cafe, elegant, premium, dark, gold, espresso, sophisticated, warm",
+        "text": "Luxury Coffee Shop: Sophisticated and aromatic. Background: Dark Espresso Brown (#2C1B18) or Deep Charcoal. Accents: Metallic Gold (#D4AF37), Cream (#F5F5DC), or Bronze. Fonts: Elegant Serif headers with minimal Sans-serif body. High-end, polished feel."
+    },
+    {
+        "id": "coffee_shop_warm",
+        "keywords": "coffee, cafe, bakery, warm, cozy, brown, beige, comfort",
+        "text": "Coffee Shop Vibe: Use warm earth tones. Background: Cream (#FFFDD0) or Warm Beige (#F5F5DC). Primary: Coffee Brown (#4B3621). Accents: Burnt Orange or Muted Green. Fonts: Rounded Sans-serif or Hand-written style."
+    },
+    {
+        "id": "cyberpunk_neon",
+        "keywords": "cyberpunk, neon, tech, future, gaming, hacker, dark mode, purple, green",
+        "text": "Cyberpunk/Gamer Style: Dark background (Deep Purple #120024 or Black #000000). High contrast Neon Green (#39FF14), Hot Pink (#FF00FF), or Cyan (#00FFFF) accents. Sharp, geometric angles. Monospace fonts."
+    },
+    {
+        "id": "nature_organic",
+        "keywords": "nature, organic, eco, green, forest, plant, sustainable, fresh",
+        "text": "Nature/Organic Theme: Dominant colors are Greens (Forest Green #228B22 or Sage #8F9779) and Earthy Browns. Background should be Soft White or Light Green tint. Use rounded corners and clean Sans-serif fonts."
+    },
+    {
+        "id": "minimalist_clean",
+        "keywords": "minimal, clean, white, modern, simple, studio, art",
+        "text": "Minimalist Design: Extreme whitespace. Background: Pure White (#FFFFFF) or very light Gray (#F5F5F5). Text: Stark Black (#000000). Accent: Single bold color (like Red or Blue) used sparingly. Grid layout."
+    },
+    {
+        "id": "pastel_cute",
+        "keywords": "pastel, cute, baby, soft, pink, blue, sweet, candy, playful",
+        "text": "Pastel/Soft Theme: Backgrounds should be very pale tints (Baby Pink #FFD1DC, Mint #98FF98, Lavender #E6E6FA). Text should be Dark Gray (not pure black) for softness. Rounded buttons and cards."
+    },
+    {
+        "id": "tech_corporate",
+        "keywords": "tech, corporate, business, blue, professional, software, saas, trust",
+        "text": "Corporate Tech: Trustworthy Blue palette. Primary: Royal Blue (#2563EB) or Navy. Background: White or Light Gray-Blue. Clean, structured layout. Roboto or Inter fonts."
+    },
+    {
+        "id": "retro_vintage",
+        "keywords": "retro, vintage, 70s, 80s, 90s, nostalgia, old school, yellow, orange",
+        "text": "Retro/Vintage Style: Muted, desaturated colors. Mustard Yellow (#E1AD01), Burnt Orange (#CC5500), Teal (#008080). Off-white or paper-texture background. Serif or slab-serif fonts."
+    },
+    {
+        "id": "fashion_chic",
+        "keywords": "fashion, chic, trendy, clothing, boutique, style, monochrome",
+        "text": "Chic Fashion: Monochrome palette (Black, White, Grays). High contrast. Large imagery. Didone fonts (Bodoni/Didot) for headings. Sophisticated and edgy."
+    },
+    {
+        "id": "health_medical",
+        "keywords": "health, medical, doctor, clinic, clean, blue, teal, safe",
+        "text": "Health/Medical: Clean, sterile but comforting. White background. Primary colors: Teal (#008080) or Sky Blue. Rounded, friendly sans-serif fonts. Avoid harsh reds."
+    },
+    {
+        "id": "industrial_loft",
+        "keywords": "industrial, loft, brick, concrete, metal, rust, raw, gray, warehouse",
+        "text": "Industrial Style: Raw and unfinished look. Background: Concrete Gray (#808080) or Exposed Brick colors. Accents: Rust Orange (#B7410E) or Matte Black. Fonts: Bold, utilitarian Sans-serif or Stencil styles."
+    },
+    {
+        "id": "scandinavian_hygge",
+        "keywords": "scandinavian, hygge, cozy, nordic, white, wood, light, simple, functional",
+        "text": "Scandinavian Design: Simplicity and functionality. Background: Bright White (#FFFFFF) or light wood textures. Accents: Muted Blues, Soft Grays, or warm Candlelight Yellow. Fonts: Clean, geometric Sans-serif."
+    },
+    {
+        "id": "bohemian_eclectic",
+        "keywords": "boho, bohemian, eclectic, patterns, artistic, warm, earthy, plants, freedom",
+        "text": "Bohemian Style: Artistic and free-spirited. Background: Warm Earth Tones (Terracotta #E2725B, Beige). Accents: Jewel tones like Deep Turquoise or Magenta. Fonts: Decorative or handwritten styles."
+    },
+    {
+        "id": "art_deco_glam",
+        "keywords": "art deco, 1920s, gatsby, gold, geometric, luxury, ornate, black, glamour",
+        "text": "Art Deco: Glamorous and geometric. Background: Deep Black or Midnight Blue. Accents: Gold (#FFD700) or Brass. Sharp geometric patterns. Fonts: High-contrast distinct styles like Broadway or Peignot."
+    },
+    {
+        "id": "neumorphism_soft",
+        "keywords": "neumorphism, soft ui, plastic, extruded, shadow, light, modern, subtle",
+        "text": "Neumorphism: Soft plastic look. Background: Light Gray (#E0E5EC) or Soft White. Elements have light and dark shadows to create depth (extruded effect). monochromatic text colors. Round shapes."
+    },
+    {
+        "id": "glassmorphism_frost",
+        "keywords": "glassmorphism, glass, blur, transparent, frosted, modern, overlay, depth",
+        "text": "Glassmorphism: Frosted glass effect. Background: Colorful gradients or images. Cards: Semi-transparent white with background blur (backdrop-filter). White borders on edges. Clean white text."
+    },
+    {
+        "id": "vaporwave_retro",
+        "keywords": "vaporwave, 80s, synthwave, purple, pink, glitch, aesthetic, surreal, retro",
+        "text": "Vaporwave Aesthetic: Retro-futuristic 80s vibe. Background: Grid lines on Deep Purple (#240046). Accents: Neon Pink (#FF6EC7), Cyan (#00FFFF). Imagery: Statues, palm trees, glitches. Fonts: Pixel art or retro script."
+    },
+    {
+        "id": "brutalism_bold",
+        "keywords": "brutalism, raw, bold, ugly, utilitarian, high contrast, neo-brutalism, border",
+        "text": "Brutalism: Raw and anti-design. Background: Stark White or neon colors. bold black borders. System fonts like Courier or Helvetica. High contrast. Overlapping elements. Unapologetic."
+    },
+    {
+        "id": "pop_art_comic",
+        "keywords": "pop art, comic, dots, bright, yellow, red, blue, bold lines, retro",
+        "text": "Pop Art: Comic book style. Background: Halftone dots or bright Yellow (#FFF200). Accents: Red (#ED1C24) and Blue (#0054A6). Thick black outlines. Speech bubbles. Fonts: Comic Sans (tastefully) or Bangers."
+    },
+    {
+        "id": "gothic_dark",
+        "keywords": "gothic, dark, mysterious, medieval, black, red, ornate, dramatic, vampire",
+        "text": "Gothic Style: Dark and dramatic. Background: Black or very Dark Grey. Accents: Blood Red (#8A0303) or Pewter. Ornate Victorian patterns. Fonts: Blackletter or Old English style."
+    },
+    {
+        "id": "streetwear_urban",
+        "keywords": "streetwear, urban, hype, graffiti, bold, black, white, red, fashion",
+        "text": "Streetwear/Urban: Hypebeast culture. Background: Black or Concrete. High contrast typography. Accents: Supreme Red (#FF0000). Graffiti elements. Fonts: Bold, stretched, or distorted Sans-serif."
+    },
+    {
+        "id": "sports_energy",
+        "keywords": "sports, fitness, gym, energy, dynamic, motion, neon, black, orange",
+        "text": "Sports/Fitness: High energy. Background: Dark Carbon or Black. Accents: Neon Lime (#CCFF00) or Bright Orange (#FF5F1F). Italicized bold fonts to suggest motion. Sharp angles."
+    },
+    {
+        "id": "real_estate_trust",
+        "keywords": "real estate, home, luxury, house, blue, gold, trustworthy, modern",
+        "text": "Real Estate: Professional and inviting. Background: White or very light gray. Primary: Navy Blue (#0C2340) for trust. Accents: Gold for luxury. High quality imagery. Serif headings for elegance."
+    },
+    {
+        "id": "education_academic",
+        "keywords": "education, school, university, learning, book, blue, yellow, clean",
+        "text": "Education/Academic: Clean and authoritative. Background: White. Primary: Oxford Blue (#002147). Accents: School Bus Yellow (#FFD700) or Burgundy. layout: Structured grid. Fonts: Traditional Serif or clean Sans."
+    },
+    {
+        "id": "travel_adventure",
+        "keywords": "travel, adventure, outdoors, nature, mountain, blue, green, map",
+        "text": "Travel/Adventure: Inspiring and vast. Background: Full-screen images of nature. Colors: Sky Blue (#87CEEB), Forest Green. Earthy tones. handwritten captions. Fonts: Clean geometric for readability."
+    },
+    {
+        "id": "wedding_elegant",
+        "keywords": "wedding, romance, love, elegant, soft, white, gold, cream, floral",
+        "text": "Wedding/Romantic: Soft and dreamy. Background: Cream (#FFFDD0) or Champagne. Accents: Rose Gold (#B76E79). Script fonts like Great Vibes or Alex Brush. Floral patterns. minimal shadows."
+    },
+    {
+        "id": "gaming_esports",
+        "keywords": "gaming, esports, competitive, rgb, neon, dark, futuristic, tech",
+        "text": "Gaming/Esports: Aggressive and tech-heavy. Background: Dark Gray/Black. Accents: RGB Red, Green, Blue gradients. Hexagonal shapes. Fonts: Sci-fi or futuristic Sans-serif. Glow effects."
+    },
+    {
+        "id": "food_delicious",
+        "keywords": "food, restaurant, delicious, appetite, red, yellow, orange, fresh, organic",
+        "text": "Food/Culinary: Appetizing and fresh. Colors: Red (#FF4500) and Orange (stimulate appetite) or Fresh Green for healthy food. Background: White or wood texture. High quality food photography is key."
+    },
+    {
+        "id": "ocean_marine",
+        "keywords": "ocean, sea, marine, beach, blue, teal, aqua, water, calm",
+        "text": "Ocean/Marine: Calm and refreshing. Background: Gradient from Deep Sea Blue (#000080) to Aqua (#00FFFF). organic wave shapes. White text. Fonts: Clean and rounded."
+    },
+    {
+        "id": "space_cosmic",
+        "keywords": "space, cosmos, galaxy, sci-fi, stars, black, purple, blue, future",
+        "text": "Space/Cosmic: Infinite and deep. Background: Void Black with starry textures. Accents: Nebula Purple (#800080) and Starlight White. Thin geometric lines. Fonts: Wide tracking, futuristic."
+    },
+    {
+        "id": "halloween_spooky",
+        "keywords": "halloween, spooky, scary, orange, black, pumpkin, spider, ghost",
+        "text": "Halloween/Spooky: Fun and eerie. Colors: Pumpkin Orange (#FF7518) and Midnight Black. Accents: Slime Green or Purple. Dripping fonts or jagged edges. Spiderweb patterns."
+    },
+    {
+        "id": "christmas_festive",
+        "keywords": "christmas, holiday, festive, winter, red, green, gold, snow, santa",
+        "text": "Christmas/Festive: Warm and joyful. Colors: Christmas Red (#B03A2E), Pine Green (#01796F). Accents: Gold and Snow White. Textures: Knitwear or snowflakes. Fonts: Serif or decorative script."
+    },
+    {
+        "id": "spring_floral",
+        "keywords": "spring, flowers, bloom, pastel, fresh, pink, green, nature, easter",
+        "text": "Spring/Floral: Fresh and blooming. Background: White or pale yellow. Colors: Tulip Pink, Daffodil Yellow, Fresh Green. Floral graphics. Light and airy layout."
+    },
+    {
+        "id": "summer_vibrant",
+        "keywords": "summer, beach, sun, hot, yellow, blue, bright, fun, pool",
+        "text": "Summer/Vibrant: Bright and sunny. Colors: Sun Yellow (#FFD300), Ocean Blue, Hot Pink. High saturation. heavy use of gradients. Fun, bubbly fonts."
+    },
+    {
+        "id": "autumn_cozy",
+        "keywords": "autumn, fall, leaves, thanksgiving, orange, brown, red, harvest, warm",
+        "text": "Autumn/Harvest: Warm and rustic. Colors: Burnt Orange, Maroon, Deep Yellow, Brown. Texture: Paper or canvas. Serif fonts. Feeling of comfort and warmth."
+    },
+    {
+        "id": "news_editorial",
+        "keywords": "news, newspaper, magazine, editorial, clean, white, black, serious",
+        "text": "News/Editorial: Information dense and legible. Background: White. Text: Dark Gray or Black. Accent: Deep Red or Blue for categories. Grid layout. Fonts: Classic Serif (Times, Georgia) for body."
+    },
+    {
+        "id": "startup_saas",
+        "keywords": "startup, saas, tech, modern, gradient, purple, blue, clean, app",
+        "text": "SaaS/Startup: Modern and innovative. Background: Clean White with subtle gray patterns. Accents: Vivid Blurple (#5865F2) or Electric Blue gradients. Rounded corners. Illustrations like 'Corporate Memphis'."
+    },
+    {
+        "id": "nonprofit_charity",
+        "keywords": "charity, nonprofit, hope, green, blue, white, friendly, community",
+        "text": "Non-profit/Charity: Optimistic and human. Colors: Hopeful Green (#2E8B57) or Trust Blue. Sky Blue. large emotive photography. Rounded, friendly typography. Clear Call-to-Action buttons."
+    },
+    {
+        "id": "music_expressive",
+        "keywords": "music, band, concert, dark, neon, spotlight, vibrant, creative",
+        "text": "Music/Expressive: Moody and loud. Background: Dark stage environments. Accents: Spotlights of color (Red, Blue, Purple). Large, experimental typography. Image heavy."
+    },
+    {
+        "id": "kids_playful",
+        "keywords": "kids, children, playful, fun, primary colors, red, blue, yellow, cartoon",
+        "text": "Kids/Playful: Fun and simple. Colors: Primary Red, Blue, Yellow. Background: White or Sky Blue. Large rounded buttons. Cartoon illustrations. Fonts: Comic or large rounded Sans-serif."
+    }
+]
