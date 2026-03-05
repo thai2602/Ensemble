@@ -17,13 +17,13 @@ const router = express.Router();
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    const uploadPath = path.join(process.cwd(), 'uploads'); 
+    const uploadPath = path.join(process.cwd(), 'uploads');
     cb(null, uploadPath);
   },
   filename: (req, file, cb) => cb(null, Date.now() + '-' + file.originalname),
 });
 
-const upload = multer({ storage }); 
+const upload = multer({ storage });
 
 // POST /posts
 router.post('/', isAuth, upload.single('image'), async (req, res) => {
@@ -67,9 +67,9 @@ router.get('/', async (req, res) => {
       .populate("userId", "username email")
       .populate({
         path: 'categories',
-        select: 'name slug', 
+        select: 'name slug',
       })
-      .populate({ path: 'shop', select: 'name slug avatar' }); 
+      .populate({ path: 'shop', select: 'name slug avatar' });
 
     res.json(posts);
   } catch (error) {
@@ -133,7 +133,7 @@ router.get('/:slug', async (req, res) => {
         path: 'categories',
         select: 'name slug'
       })
-      .populate({ path: 'shop', select: 'name slug avatar' }); 
+      .populate({ path: 'shop', select: 'name slug avatar' });
 
     if (!post) {
       return res.status(404).json({ message: 'Post not found' });
@@ -149,13 +149,13 @@ router.get('/:slug', async (req, res) => {
 router.patch('/:id', isAuth, async (req, res) => {
   try {
     const { id } = req.params;
-    const { shop } = req.body; 
+    const { shop } = req.body;
 
     const update = { ...req.body };
 
     if (shop !== undefined) {
       if (shop === null || shop === '') {
-        update.shop = null; 
+        update.shop = null;
       } else {
         if (!mongoose.isValidObjectId(shop)) {
           return res.status(400).json({ message: 'Invalid shop id' });
@@ -184,9 +184,9 @@ router.delete('/:id', isAuth, async (req, res) => {
   try {
     const { id } = req.params;
     const post = await Post.findById(id);
-    
+
     if (!post) return res.status(404).json({ message: 'Post not found' });
-    
+
     // Check if user is the owner
     if (String(post.userId) !== String(req.user._id)) {
       return res.status(403).json({ message: 'You can only delete your own posts' });

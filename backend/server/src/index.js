@@ -19,14 +19,14 @@ import shopRoute from "./routes/shopRoute.js";
 import commentsRouter from "./routes/comments.js";
 import aiDesignRoutes from "./routes/aiDesignRoutes.js";
 
-dotenv.config({ path: "./.env" });
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+dotenv.config({ path: path.join(__dirname, "../.env") });
 if (!process.env.JWT_SECRET) {
   console.error("Missing JWT_SECRET in .env");
   process.exit(1);
 }
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 const PORT = process.env.PORT || 5000;
 
