@@ -18,6 +18,10 @@ jspm_packages/
 .env.*
 backend/server/.env
 
+# File uploads
+uploads/
+backend/server/uploads/
+
 # Temp / output files
 cmd-out.txt
 *.txt
